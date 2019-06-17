@@ -17,7 +17,6 @@ public class TC_Smoke_ActivityTab_02 extends BaseClass {
 		loginPage = new LoginPage(driver);
 		activityTab = new ActivityTab(driver);
 		driver.get(vcstaxURL);
-		System.out.println();
 	}
 	
 	@Test(priority = 0)
