@@ -1,0 +1,190 @@
+12:56:54.412 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+12:56:59.193 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on OK to Continue Link
+12:56:59.343 [main] DEBUG com.vcstax.pageObjects.LoginPage - User Name Entered
+12:56:59.478 [main] DEBUG com.vcstax.pageObjects.LoginPage - Password Entered
+12:56:59.618 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+12:57:03.175 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Settings Tab
+12:57:04.020 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Annual Configuration Link
+12:57:04.691 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Default Link
+12:57:09.560 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Configuration Link
+12:57:10.748 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Bill Number Link
+12:57:17.138 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Configuration Link
+12:57:18.297 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Commission Rates Link
+12:57:20.494 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Configuration Link
+12:57:21.665 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Distribution Method Link
+12:57:28.797 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Configuration Link
+12:57:30.020 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Decal Numbers Link
+12:57:33.598 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Configuration Link
+12:57:34.754 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on District Tax ACCT Xref Link
+12:57:37.074 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Configuration Link
+12:57:38.220 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Distribution Method Link
+12:57:40.363 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Configuration Link
+12:58:58.431 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed
+15:54:09.767 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+15:54:15.057 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on OK to Continue Link
+15:54:15.205 [main] DEBUG com.vcstax.pageObjects.LoginPage - User Name Entered
+15:54:15.338 [main] DEBUG com.vcstax.pageObjects.LoginPage - Password Entered
+15:54:15.469 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+15:55:18.007 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed
+16:04:41.302 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+16:04:46.037 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on OK to Continue Link
+16:04:46.183 [main] DEBUG com.vcstax.pageObjects.LoginPage - User Name Entered
+16:04:46.314 [main] DEBUG com.vcstax.pageObjects.LoginPage - Password Entered
+16:04:46.446 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+16:04:47.240 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Settings Tab
+16:04:47.875 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on System Configuration Link
+16:04:48.553 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Batch Types Link
+16:05:53.346 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed
+16:12:12.636 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+16:12:18.424 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on OK to Continue Link
+16:12:18.603 [main] DEBUG com.vcstax.pageObjects.LoginPage - User Name Entered
+16:12:18.748 [main] DEBUG com.vcstax.pageObjects.LoginPage - Password Entered
+16:12:18.883 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+16:12:19.653 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Settings Tab
+16:12:20.301 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on System Configuration Link
+16:12:20.973 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Batch Types Link
+16:13:25.762 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed
+16:35:01.291 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+16:35:06.017 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on OK to Continue Link
+16:35:06.163 [main] DEBUG com.vcstax.pageObjects.LoginPage - User Name Entered
+16:35:06.287 [main] DEBUG com.vcstax.pageObjects.LoginPage - Password Entered
+16:35:06.412 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+16:35:07.063 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Settings Tab
+16:35:07.695 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on System Configuration Link
+16:35:08.381 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Batch Types Link
+16:35:22.044 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on County Master Link
+16:35:38.618 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on District / Property Type Cross-reference Link
+16:35:42.588 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Exemptions Link
+16:35:49.958 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Disburse Accounts Link
+16:35:56.072 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Property Strata
+16:36:10.265 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Property Types Link
+16:36:21.098 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Registers Link
+16:36:28.304 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Tables Setup Link
+16:36:42.430 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed
+16:44:48.759 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+16:44:53.578 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on OK to Continue Link
+16:44:53.721 [main] DEBUG com.vcstax.pageObjects.LoginPage - User Name Entered
+16:44:53.849 [main] DEBUG com.vcstax.pageObjects.LoginPage - Password Entered
+16:44:53.971 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+16:44:54.631 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Settings Tab
+16:44:55.274 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on System Configuration Link
+16:44:55.953 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Batch Types Link
+16:45:11.019 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Disburse Accounts Link
+16:45:41.591 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Registers Link
+16:45:55.788 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed
+16:46:58.380 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+16:47:01.446 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on OK to Continue Link
+16:47:01.598 [main] DEBUG com.vcstax.pageObjects.LoginPage - User Name Entered
+16:47:01.736 [main] DEBUG com.vcstax.pageObjects.LoginPage - Password Entered
+16:47:01.872 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+16:47:02.522 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Settings Tab
+16:47:03.172 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on System Configuration Link
+16:47:03.863 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Batch Types Link
+16:47:06.075 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+16:47:08.226 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Batch Officers Link
+16:47:10.425 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+16:47:12.589 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on County Master Link
+16:47:14.800 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+16:47:16.944 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Disburse Accounts Link
+16:47:19.125 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+16:47:21.283 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on District / Property Type Cross-reference Link
+16:47:57.698 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Tax Accounts Link
+16:48:00.661 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+16:48:04.713 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed
+16:49:37.073 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+16:49:40.576 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on OK to Continue Link
+16:49:40.727 [main] DEBUG com.vcstax.pageObjects.LoginPage - User Name Entered
+16:49:40.865 [main] DEBUG com.vcstax.pageObjects.LoginPage - Password Entered
+16:49:41.007 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+16:49:41.687 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Settings Tab
+16:49:42.332 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on System Configuration Link
+16:49:43.000 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Batch Types Link
+16:49:45.230 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+16:49:47.384 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Batch Officers Link
+16:49:49.585 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+16:49:51.740 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on County Master Link
+16:49:53.929 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+16:49:56.086 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Disburse Accounts Link
+16:49:58.307 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+16:50:00.455 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on District / Property Type Cross-reference Link
+16:50:14.031 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Property Strata
+16:50:23.939 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+16:50:26.112 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Property Types Link
+16:50:28.295 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+16:50:30.451 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Registers Link
+16:50:32.650 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+16:50:34.797 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Tables Setup Link
+16:50:37.028 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+16:50:39.166 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Tax Accounts Link
+16:50:42.229 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+16:50:46.271 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed
+17:06:40.665 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+17:06:45.654 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on OK to Continue Link
+17:06:45.832 [main] DEBUG com.vcstax.pageObjects.LoginPage - User Name Entered
+17:06:46.016 [main] DEBUG com.vcstax.pageObjects.LoginPage - Password Entered
+17:06:46.198 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+17:06:47.025 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Settings Tab
+17:06:47.686 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on System Configuration Link
+17:06:48.367 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Batch Types Link
+17:06:50.585 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+17:06:52.740 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Batch Officers Link
+17:06:54.944 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+17:06:57.097 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on County Master Link
+17:06:59.325 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+17:07:01.491 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Disburse Accounts Link
+17:07:03.674 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+17:07:05.826 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on District / Property Type Cross-reference Link
+17:07:45.195 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed
+17:12:35.808 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+17:12:40.533 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on OK to Continue Link
+17:12:40.687 [main] DEBUG com.vcstax.pageObjects.LoginPage - User Name Entered
+17:12:40.828 [main] DEBUG com.vcstax.pageObjects.LoginPage - Password Entered
+17:12:40.964 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+17:12:41.724 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Settings Tab
+17:12:42.346 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on System Configuration Link
+17:12:43.024 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Batch Types Link
+17:12:45.250 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+17:12:47.399 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Batch Officers Link
+17:12:49.604 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+17:12:51.769 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on County Master Link
+17:12:53.973 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+17:12:56.160 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Disburse Accounts Link
+17:12:58.356 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+17:13:00.487 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on District / Property Type Cross-reference Link
+17:13:02.661 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+17:13:04.826 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Exemptions Link
+17:13:07.492 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+17:13:09.634 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Disburse Accounts Link
+17:13:38.953 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed
+17:14:48.451 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+17:14:51.478 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on OK to Continue Link
+17:14:51.645 [main] DEBUG com.vcstax.pageObjects.LoginPage - User Name Entered
+17:14:51.775 [main] DEBUG com.vcstax.pageObjects.LoginPage - Password Entered
+17:14:51.910 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+17:14:52.539 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Settings Tab
+17:14:53.181 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on System Configuration Link
+17:14:53.859 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Batch Types Link
+17:14:56.078 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+17:14:58.264 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Batch Officers Link
+17:15:00.500 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+17:15:02.637 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on County Master Link
+17:15:04.823 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+17:15:06.957 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Disburse Accounts Link
+17:15:09.185 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+17:15:11.328 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on District / Property Type Cross-reference Link
+17:15:13.507 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+17:15:15.664 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Exemptions Link
+17:15:18.175 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+17:15:20.322 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Disburse Accounts Link
+17:15:22.506 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+17:15:24.643 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Property Strata
+17:15:34.654 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+17:15:36.788 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Property Types Link
+17:15:38.960 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+17:15:41.100 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Registers Link
+17:15:43.318 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+17:15:45.474 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Tables Setup Link
+17:15:47.647 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+17:15:49.781 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on Tax Accounts Link
+17:15:52.669 [main] DEBUG com.vcstax.pageObjects.SystemConfiguration - Clikced on System Configuration Link
+17:15:56.708 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed

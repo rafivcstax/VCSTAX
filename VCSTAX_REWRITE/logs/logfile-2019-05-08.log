@@ -1,0 +1,6 @@
+17:48:14.436 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+17:48:16.911 [main] DEBUG com.vcstax.pageObjects.ActivityTab - Clicked on Activity Tab
+17:48:18.050 [main] DEBUG com.vcstax.pageObjects.ActivityTab - Clicked on collections Link
+17:48:20.162 [main] DEBUG com.vcstax.pageObjects.ActivityTab - Clicked on Activity Tab
+17:48:21.292 [main] DEBUG com.vcstax.pageObjects.ActivityTab - Clicked on Accessor Change Order Link
+17:48:23.426 [main] DEBUG com.vcstax.pageObjects.ActivityTab - Clicked on Activity Tab

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.vcstax.testCases.TC_Smoke_ActivityTab_02">
+        <methods>
+          <include name="clickmortgagePaymentProcessinglink"/>
+          <include name="clickrealDigestlink"/>
+          <include name="invokeBrowser"/>
+          <include name="clickmobileHomeDigestlink"/>
+          <include name="clickmortgageTaxBillExportlink"/>
+          <include name="clickquarterlyBillinglink"/>
+          <include name="closeBrowser"/>
+          <include name="clickmortgageRequestProcessinglink"/>
+          <include name="defineTestObjects"/>
+          <include name="clickmortgageManualProcessinglink"/>
+        </methods>
+      </class> <!-- com.vcstax.testCases.TC_Smoke_ActivityTab_02 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

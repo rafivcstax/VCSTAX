@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="10" name="testSuite">
+	<listeners>
+		<listener
+			class-name="com.vcstax.utilities.VcsTaxReportListener" />
+	</listeners>
+<!-- 	<test name="SmokeTestCase1">
+		<classes>
+			<class name="com.vcstax.testCases.TC_Smoke_Login_01" />
+		</classes>  
+	</test> -->
+	<test name="SmokeTestCase2">
+		<classes>
+			<class name="com.vcstax.testCases.TC_Smoke_ActivityTab_02" />
+		</classes>
+	</test>
+<!-- <test name="SmokeTestCase3">
+		<classes>
+			<class name="com.vcstax.testCases.TC_Smoke_RepotsTab_03" />
+		</classes>
+	</test> -->
+	<test name="SmokeTestCase4">
+		<classes>
+			<class name="com.vcstax.testCases.TC_Smoke_SettingsTab_04" />
+		</classes>
+	</test>
+<!-- <test name="SmokeTestCase5">
+		<classes>
+			<class name="com.vcstax.testCases.TC_Smoke_ToolsTab_05" />
+		</classes>
+	</test> 
+	<test name="SmokeTestCase5">
+		<classes>
+			<class name="com.vcstax.testCases.TC_Smoke_SystemConfiguration_07" />
+		</classes>  
+	</test>
+	 <test name="SmokeTestCase5">
+		<classes>
+			<class name="com.vcstax.testCases.TC_Smoke_AnnualConfiguration_06" />
+		</classes>  
+	</test>--> <!-- Test -->
+</suite> <!-- Suite -->

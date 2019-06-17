@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="22" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testSuite" duration-ms="57990" started-at="2019-06-07T10:58:09Z" finished-at="2019-06-07T10:59:07Z">
+    <groups>
+    </groups>
+    <test name="SmokeTestCase2" duration-ms="37519" started-at="2019-06-07T10:58:09Z" finished-at="2019-06-07T10:58:47Z">
+      <class name="com.vcstax.testCases.TC_Smoke_ActivityTab_02">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.vcstax.testCases.TC_Smoke_ActivityTab_02@6379eb]" name="invokeBrowser" is-config="true" duration-ms="5446" started-at="2019-06-07T10:58:09Z" finished-at="2019-06-07T10:58:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="defineTestObjects()[pri:0, instance:com.vcstax.testCases.TC_Smoke_ActivityTab_02@6379eb]" name="defineTestObjects" is-config="true" duration-ms="4423" started-at="2019-06-07T10:58:15Z" finished-at="2019-06-07T10:58:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineTestObjects -->
+        <test-method status="PASS" signature="clickCollectionlink()[pri:0, instance:com.vcstax.testCases.TC_Smoke_ActivityTab_02@6379eb]" name="clickCollectionlink" duration-ms="3789" started-at="2019-06-07T10:58:19Z" finished-at="2019-06-07T10:58:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCollectionlink -->
+        <test-method status="PASS" signature="clickAssessorChangeOrderslink()[pri:1, instance:com.vcstax.testCases.TC_Smoke_ActivityTab_02@6379eb]" name="clickAssessorChangeOrderslink" duration-ms="1280" started-at="2019-06-07T10:58:23Z" finished-at="2019-06-07T10:58:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAssessorChangeOrderslink -->
+        <test-method status="PASS" signature="clickcalculateRevenueDisbursementlink()[pri:2, instance:com.vcstax.testCases.TC_Smoke_ActivityTab_02@6379eb]" name="clickcalculateRevenueDisbursementlink" duration-ms="1264" started-at="2019-06-07T10:58:24Z" finished-at="2019-06-07T10:58:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickcalculateRevenueDisbursementlink -->
+        <test-method status="FAIL" signature="clickMailProcessinglink()[pri:3, instance:com.vcstax.testCases.TC_Smoke_ActivityTab_02@6379eb]" name="clickMailProcessinglink" duration-ms="1274" started-at="2019-06-07T10:58:26Z" finished-at="2019-06-07T10:58:27Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Mail Processing - menu name is not matched. expected [Mail Process] but found [Mail Processing]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Mail Processing - menu name is not matched. expected [Mail Process] but found [Mail Processing]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at com.vcstax.pageObjects.ActivityTab.clickMailProcessinglink(ActivityTab.java:116)
+at com.vcstax.testCases.TC_Smoke_ActivityTab_02.clickMailProcessinglink(TC_Smoke_ActivityTab_02.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMailProcessinglink -->
+        <test-method status="PASS" signature="clickRegisterReconciliationlink()[pri:4, instance:com.vcstax.testCases.TC_Smoke_ActivityTab_02@6379eb]" name="clickRegisterReconciliationlink" duration-ms="1267" started-at="2019-06-07T10:58:27Z" finished-at="2019-06-07T10:58:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickRegisterReconciliationlink -->
+        <test-method status="PASS" signature="clickApplyLateFeelink()[pri:5, instance:com.vcstax.testCases.TC_Smoke_ActivityTab_02@6379eb]" name="clickApplyLateFeelink" duration-ms="1242" started-at="2019-06-07T10:58:29Z" finished-at="2019-06-07T10:58:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickApplyLateFeelink -->
+        <test-method status="PASS" signature="clickbankruptcyCaseslink()[pri:6, instance:com.vcstax.testCases.TC_Smoke_ActivityTab_02@6379eb]" name="clickbankruptcyCaseslink" duration-ms="1258" started-at="2019-06-07T10:58:30Z" finished-at="2019-06-07T10:58:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickbankruptcyCaseslink -->
+        <test-method status="PASS" signature="clickdelinquentProcessinglink()[pri:7, instance:com.vcstax.testCases.TC_Smoke_ActivityTab_02@6379eb]" name="clickdelinquentProcessinglink" duration-ms="1232" started-at="2019-06-07T10:58:31Z" finished-at="2019-06-07T10:58:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickdelinquentProcessinglink -->
+        <test-method status="PASS" signature="clickquarterlyBillinglink()[pri:8, instance:com.vcstax.testCases.TC_Smoke_ActivityTab_02@6379eb]" name="clickquarterlyBillinglink" duration-ms="1252" started-at="2019-06-07T10:58:32Z" finished-at="2019-06-07T10:58:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickquarterlyBillinglink -->
+        <test-method status="PASS" signature="clickmobileHomeDigestlink()[pri:9, instance:com.vcstax.testCases.TC_Smoke_ActivityTab_02@6379eb]" name="clickmobileHomeDigestlink" duration-ms="1266" started-at="2019-06-07T10:58:34Z" finished-at="2019-06-07T10:58:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickmobileHomeDigestlink -->
+        <test-method status="PASS" signature="clickmortgageTaxBillExportlink()[pri:10, instance:com.vcstax.testCases.TC_Smoke_ActivityTab_02@6379eb]" name="clickmortgageTaxBillExportlink" duration-ms="1753" started-at="2019-06-07T10:58:35Z" finished-at="2019-06-07T10:58:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickmortgageTaxBillExportlink -->
+        <test-method status="PASS" signature="clickmortgageRequestProcessinglink()[pri:11, instance:com.vcstax.testCases.TC_Smoke_ActivityTab_02@6379eb]" name="clickmortgageRequestProcessinglink" duration-ms="1377" started-at="2019-06-07T10:58:37Z" finished-at="2019-06-07T10:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickmortgageRequestProcessinglink -->
+        <test-method status="PASS" signature="clickrealDigestlink()[pri:12, instance:com.vcstax.testCases.TC_Smoke_ActivityTab_02@6379eb]" name="clickrealDigestlink" duration-ms="1272" started-at="2019-06-07T10:58:38Z" finished-at="2019-06-07T10:58:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickrealDigestlink -->
+        <test-method status="PASS" signature="clickmortgagePaymentProcessinglink()[pri:13, instance:com.vcstax.testCases.TC_Smoke_ActivityTab_02@6379eb]" name="clickmortgagePaymentProcessinglink" duration-ms="2782" started-at="2019-06-07T10:58:39Z" finished-at="2019-06-07T10:58:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickmortgagePaymentProcessinglink -->
+        <test-method status="PASS" signature="clickmortgageManualProcessinglink()[pri:14, instance:com.vcstax.testCases.TC_Smoke_ActivityTab_02@6379eb]" name="clickmortgageManualProcessinglink" duration-ms="1408" started-at="2019-06-07T10:58:42Z" finished-at="2019-06-07T10:58:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickmortgageManualProcessinglink -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.vcstax.testCases.TC_Smoke_ActivityTab_02@6379eb]" name="closeBrowser" is-config="true" duration-ms="3189" started-at="2019-06-07T10:58:43Z" finished-at="2019-06-07T10:58:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.vcstax.testCases.TC_Smoke_ActivityTab_02 -->
+    </test> <!-- SmokeTestCase2 -->
+    <test name="SmokeTestCase4" duration-ms="19823" started-at="2019-06-07T10:58:47Z" finished-at="2019-06-07T10:59:07Z">
+      <class name="com.vcstax.testCases.TC_Smoke_SettingsTab_04">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.vcstax.testCases.TC_Smoke_SettingsTab_04@436813f3]" name="invokeBrowser" is-config="true" duration-ms="2180" started-at="2019-06-07T10:58:47Z" finished-at="2019-06-07T10:58:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="defineTestObjects()[pri:0, instance:com.vcstax.testCases.TC_Smoke_SettingsTab_04@436813f3]" name="defineTestObjects" is-config="true" duration-ms="3552" started-at="2019-06-07T10:58:49Z" finished-at="2019-06-07T10:58:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineTestObjects -->
+        <test-method status="PASS" signature="clickannualConfigurationlink()[pri:0, instance:com.vcstax.testCases.TC_Smoke_SettingsTab_04@436813f3]" name="clickannualConfigurationlink" duration-ms="2599" started-at="2019-06-07T10:58:53Z" finished-at="2019-06-07T10:58:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickannualConfigurationlink -->
+        <test-method status="PASS" signature="clicksystemConfigurationlink()[pri:1, instance:com.vcstax.testCases.TC_Smoke_SettingsTab_04@436813f3]" name="clicksystemConfigurationlink" duration-ms="1232" started-at="2019-06-07T10:58:56Z" finished-at="2019-06-07T10:58:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicksystemConfigurationlink -->
+        <test-method status="PASS" signature="clicktextEditorlink()[pri:2, instance:com.vcstax.testCases.TC_Smoke_SettingsTab_04@436813f3]" name="clicktextEditorlink" duration-ms="1232" started-at="2019-06-07T10:58:57Z" finished-at="2019-06-07T10:58:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicktextEditorlink -->
+        <test-method status="PASS" signature="clickrolesManagerlink()[pri:3, instance:com.vcstax.testCases.TC_Smoke_SettingsTab_04@436813f3]" name="clickrolesManagerlink" duration-ms="1281" started-at="2019-06-07T10:58:58Z" finished-at="2019-06-07T10:58:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickrolesManagerlink -->
+        <test-method status="PASS" signature="clickuserAccountsManagerlink()[pri:4, instance:com.vcstax.testCases.TC_Smoke_SettingsTab_04@436813f3]" name="clickuserAccountsManagerlink" duration-ms="1721" started-at="2019-06-07T10:58:59Z" finished-at="2019-06-07T10:59:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickuserAccountsManagerlink -->
+        <test-method status="PASS" signature="clickproductInformationlink()[pri:5, instance:com.vcstax.testCases.TC_Smoke_SettingsTab_04@436813f3]" name="clickproductInformationlink" duration-ms="1241" started-at="2019-06-07T10:59:01Z" finished-at="2019-06-07T10:59:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickproductInformationlink -->
+        <test-method status="FAIL" signature="clickreleaseNoteslink()[pri:6, instance:com.vcstax.testCases.TC_Smoke_SettingsTab_04@436813f3]" name="clickreleaseNoteslink" duration-ms="1227" started-at="2019-06-07T10:59:02Z" finished-at="2019-06-07T10:59:04Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Release Notes - menu name is not matched. expected [Release Notes] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Release Notes - menu name is not matched. expected [Release Notes] but found []
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at com.vcstax.pageObjects.SettingsTab.clickreleaseNoteslink(SettingsTab.java:121)
+at com.vcstax.testCases.TC_Smoke_SettingsTab_04.clickreleaseNoteslink(TC_Smoke_SettingsTab_04.java:61)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickreleaseNoteslink -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.vcstax.testCases.TC_Smoke_SettingsTab_04@436813f3]" name="closeBrowser" is-config="true" duration-ms="3149" started-at="2019-06-07T10:59:04Z" finished-at="2019-06-07T10:59:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.vcstax.testCases.TC_Smoke_SettingsTab_04 -->
+    </test> <!-- SmokeTestCase4 -->
+  </suite> <!-- testSuite -->
+</testng-results>

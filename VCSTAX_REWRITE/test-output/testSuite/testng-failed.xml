@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [testSuite]">
+  <listeners>
+    <listener class-name="com.vcstax.utilities.VcsTaxReportListener"/>
+  </listeners>
+  <test thread-count="2" verbose="10" name="SmokeTestCase2(failed)">
+    <classes>
+      <class name="com.vcstax.testCases.TC_Smoke_ActivityTab_02">
+        <methods>
+          <include name="invokeBrowser"/>
+          <include name="clickMailProcessinglink"/>
+          <include name="closeBrowser"/>
+          <include name="defineTestObjects"/>
+        </methods>
+      </class> <!-- com.vcstax.testCases.TC_Smoke_ActivityTab_02 -->
+    </classes>
+  </test> <!-- SmokeTestCase2(failed) -->
+  <test thread-count="2" verbose="10" name="SmokeTestCase4(failed)">
+    <classes>
+      <class name="com.vcstax.testCases.TC_Smoke_SettingsTab_04">
+        <methods>
+          <include name="defineTestObjects"/>
+          <include name="clickreleaseNoteslink"/>
+          <include name="invokeBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vcstax.testCases.TC_Smoke_SettingsTab_04 -->
+    </classes>
+  </test> <!-- SmokeTestCase4(failed) -->
+</suite> <!-- Failed suite [testSuite] -->

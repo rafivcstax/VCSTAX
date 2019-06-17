@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="10" name="testSuite">
+	<listeners>
+		<listener
+			class-name="com.vcstax.utilities.VcsTaxReportListener" />
+	</listeners>
+	<test name="SmokeTestCase4">
+		<classes>
+			<class name="com.vcstax.testCases.TC_Smoke_ActivityTab_02" />
+			<class name="com.vcstax.testCases.TC_Smoke_SettingsTab_04" />
+			<class name="com.vcstax.testCases.TC_Smoke_ToolsTab_05" />
+		</classes>
+	</test>
+	<!-- Test -->
+</suite> <!-- Suite -->

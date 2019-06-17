@@ -1,0 +1,28 @@
+17:47:40.202 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+17:47:44.856 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on OK to Continue Link
+17:47:45.006 [main] DEBUG com.vcstax.pageObjects.LoginPage - User Name Entered
+17:47:45.149 [main] DEBUG com.vcstax.pageObjects.LoginPage - Password Entered
+17:47:45.276 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+17:47:46.010 [main] DEBUG com.vcstax.pageObjects.ActivityTab - Clicked on Activity Tab
+17:47:46.630 [main] DEBUG com.vcstax.pageObjects.ActivityTab - Clicked on collections Link
+17:47:47.872 [main] DEBUG com.vcstax.pageObjects.ActivityTab - Clicked on Activity Tab
+17:47:48.491 [main] DEBUG com.vcstax.pageObjects.ActivityTab - Clicked on Accessor Change Order Link
+17:47:49.195 [main] DEBUG com.vcstax.pageObjects.ActivityTab - Clicked on Activity Tab
+17:47:49.802 [main] DEBUG com.vcstax.pageObjects.ActivityTab - Clicked on Calculate Revenue Disbursement Link
+17:47:50.477 [main] DEBUG com.vcstax.pageObjects.ActivityTab - Clicked on Activity Tab
+17:47:51.122 [main] DEBUG com.vcstax.pageObjects.ActivityTab - Clicked on Mail Processing Link
+17:47:51.811 [main] DEBUG com.vcstax.pageObjects.ActivityTab - Clicked on Activity Tab
+17:47:52.413 [main] DEBUG com.vcstax.pageObjects.ActivityTab - Clicked on Register Reconciliation Link
+17:47:53.110 [main] DEBUG com.vcstax.pageObjects.ActivityTab - Clicked on Activity Tab
+17:47:53.739 [main] DEBUG com.vcstax.pageObjects.ActivityTab - Clicked on Apply LateFee Link
+17:47:54.421 [main] DEBUG com.vcstax.pageObjects.ActivityTab - Clicked on Activity Tab
+17:47:55.032 [main] DEBUG com.vcstax.pageObjects.ActivityTab - Clicked on Bankruptcy Cases Link
+17:47:55.707 [main] DEBUG com.vcstax.pageObjects.ActivityTab - Clicked on Activity Tab
+17:47:56.311 [main] DEBUG com.vcstax.pageObjects.ActivityTab - Clicked on Delinquent Processing Link
+17:47:56.987 [main] DEBUG com.vcstax.pageObjects.ActivityTab - Clicked on Activity Tab
+17:48:02.765 [main] DEBUG com.vcstax.pageObjects.ActivityTab - Clicked on Activity Tab
+17:48:08.466 [main] DEBUG com.vcstax.pageObjects.ActivityTab - Clicked on Activity Tab
+17:48:09.075 [main] DEBUG com.vcstax.pageObjects.ActivityTab - Clicked on Mortgage TaxBill Export Link
+17:48:09.813 [main] DEBUG com.vcstax.pageObjects.ActivityTab - Clicked on Activity Tab
+17:48:10.548 [main] DEBUG com.vcstax.pageObjects.ActivityTab - Clicked on Mortgage Request Processing Link
+17:48:14.045 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed

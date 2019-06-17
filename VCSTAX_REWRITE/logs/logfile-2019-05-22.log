@@ -1,0 +1,139 @@
+12:40:05.951 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+12:40:14.097 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on OK to Continue Link
+12:40:14.248 [main] DEBUG com.vcstax.pageObjects.LoginPage - User Name Entered
+12:40:14.417 [main] DEBUG com.vcstax.pageObjects.LoginPage - Password Entered
+12:40:14.578 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+12:40:15.294 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Settings Tab
+12:40:15.935 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Annual Configuration Link
+12:40:16.614 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Default Link
+12:40:24.279 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed
+12:40:53.405 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+12:40:57.570 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on OK to Continue Link
+12:40:57.728 [main] DEBUG com.vcstax.pageObjects.LoginPage - User Name Entered
+12:40:57.891 [main] DEBUG com.vcstax.pageObjects.LoginPage - Password Entered
+12:40:58.041 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+12:40:58.740 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Settings Tab
+12:40:59.356 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Annual Configuration Link
+12:41:00.024 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Default Link
+12:41:03.999 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Configuration Link
+12:41:04.666 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Bill Number Link
+12:41:05.309 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Configuration Link
+12:41:12.484 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed
+13:14:56.478 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+13:15:24.431 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on OK to Continue Link
+13:15:24.602 [main] DEBUG com.vcstax.pageObjects.LoginPage - User Name Entered
+13:15:24.787 [main] DEBUG com.vcstax.pageObjects.LoginPage - Password Entered
+13:15:24.925 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+13:15:26.667 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Settings Tab
+13:15:27.353 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Annual Configuration Link
+13:15:28.041 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Default Link
+13:15:28.688 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Configuration Link
+13:15:51.443 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed
+13:16:40.633 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+13:16:53.343 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on OK to Continue Link
+13:16:53.492 [main] DEBUG com.vcstax.pageObjects.LoginPage - User Name Entered
+13:16:53.649 [main] DEBUG com.vcstax.pageObjects.LoginPage - Password Entered
+13:16:53.796 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+13:16:54.477 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Settings Tab
+13:16:55.123 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Annual Configuration Link
+13:16:55.799 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Default Link
+13:16:56.951 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Configuration Link
+13:17:22.819 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed
+13:23:58.433 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+13:24:07.554 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on OK to Continue Link
+13:24:07.740 [main] DEBUG com.vcstax.pageObjects.LoginPage - User Name Entered
+13:24:07.876 [main] DEBUG com.vcstax.pageObjects.LoginPage - Password Entered
+13:24:08.017 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+13:24:08.513 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Settings Tab
+13:24:09.157 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Annual Configuration Link
+13:24:09.902 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Default Link
+13:24:11.074 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Configuration Link
+13:24:36.767 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed
+13:27:48.983 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+13:28:13.804 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on OK to Continue Link
+13:28:13.931 [main] DEBUG com.vcstax.pageObjects.LoginPage - User Name Entered
+13:28:14.088 [main] DEBUG com.vcstax.pageObjects.LoginPage - Password Entered
+13:28:14.249 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+13:28:14.975 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Settings Tab
+13:28:15.617 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Annual Configuration Link
+13:28:16.310 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Default Link
+13:28:17.490 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Configuration Link
+13:28:43.262 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed
+13:29:14.255 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+13:30:03.076 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed
+14:56:21.492 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+14:56:45.209 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on OK to Continue Link
+14:56:45.373 [main] DEBUG com.vcstax.pageObjects.LoginPage - User Name Entered
+14:56:45.557 [main] DEBUG com.vcstax.pageObjects.LoginPage - Password Entered
+14:56:45.692 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+14:56:50.706 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Settings Tab
+14:56:51.785 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Annual Configuration Link
+14:56:52.481 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Default Link
+14:56:57.521 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Configuration Link
+14:56:58.721 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Bill Number Link
+14:56:59.837 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Configuration Link
+14:57:22.300 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed
+14:58:50.255 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+14:58:58.768 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on OK to Continue Link
+14:58:58.958 [main] DEBUG com.vcstax.pageObjects.LoginPage - User Name Entered
+14:58:59.103 [main] DEBUG com.vcstax.pageObjects.LoginPage - Password Entered
+14:58:59.236 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+14:59:00.031 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Settings Tab
+14:59:00.669 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Annual Configuration Link
+14:59:01.375 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Default Link
+14:59:06.016 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Configuration Link
+14:59:07.231 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Bill Number Link
+14:59:13.264 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Configuration Link
+14:59:14.443 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Commission Rates Link
+14:59:16.586 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Configuration Link
+14:59:29.747 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed
+16:01:16.155 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+16:01:54.388 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on OK to Continue Link
+16:01:54.565 [main] DEBUG com.vcstax.pageObjects.LoginPage - User Name Entered
+16:01:54.741 [main] DEBUG com.vcstax.pageObjects.LoginPage - Password Entered
+16:01:54.881 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+16:01:59.655 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Settings Tab
+16:02:00.324 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Annual Configuration Link
+16:02:01.012 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Default Link
+16:02:05.929 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Configuration Link
+16:02:07.120 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Bill Number Link
+16:02:10.415 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Configuration Link
+16:03:25.098 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed
+16:39:40.796 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+16:39:56.253 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on OK to Continue Link
+16:39:56.528 [main] DEBUG com.vcstax.pageObjects.LoginPage - User Name Entered
+16:39:56.684 [main] DEBUG com.vcstax.pageObjects.LoginPage - Password Entered
+16:39:56.821 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+16:39:58.969 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Settings Tab
+16:39:59.677 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Annual Configuration Link
+16:40:00.374 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Settings Tab
+16:40:01.005 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on System Configuration Link
+16:40:01.653 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Settings Tab
+16:40:02.313 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Text Editor Link
+16:40:03.076 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Settings Tab
+16:40:03.786 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Roles Manager Link
+16:40:04.559 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Settings Tab
+16:40:05.211 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on User Accounts Manager Link
+16:40:05.855 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Settings Tab
+16:40:06.906 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Product Information Link
+16:40:07.595 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Settings Tab
+16:40:08.261 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Release Notes Link
+16:40:10.825 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed
+16:42:03.487 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+16:42:14.323 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on OK to Continue Link
+16:42:14.473 [main] DEBUG com.vcstax.pageObjects.LoginPage - User Name Entered
+16:42:14.673 [main] DEBUG com.vcstax.pageObjects.LoginPage - Password Entered
+16:42:14.810 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+16:42:15.404 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Settings Tab
+16:42:16.062 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Annual Configuration Link
+16:42:16.750 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Default Link
+16:42:21.683 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Configuration Link
+16:42:22.882 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Bill Number Link
+16:42:29.668 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Configuration Link
+16:42:30.847 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Commission Rates Link
+16:42:33.049 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Configuration Link
+16:42:34.206 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Distribution Method Link
+16:42:42.344 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Configuration Link
+16:42:43.494 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Decal Numbers Link
+16:42:45.623 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Configuration Link
+16:43:46.315 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed

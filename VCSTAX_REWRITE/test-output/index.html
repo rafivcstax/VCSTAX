@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-testSuite">
+              <span class="suite-name border-failed">testSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-testSuite">
+                    <span>C:\Users\UX014563\TR Workspace\VCSTAX_REWRITE\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-testSuite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-testSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-testSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-testSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-testSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-testSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods, 2 failed,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-testSuite" class="hide-methods failed suite-testSuite"> (hide)</a> <!-- hide-methods failed suite-testSuite -->
+                      <a href="#" panel-name="suite-testSuite" class="show-methods failed suite-testSuite"> (show)</a> <!-- show-methods failed suite-testSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-testSuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testSuite" title="com.vcstax.testCases.TC_Smoke_ActivityTab_02" hash-for-method="clickMailProcessinglink">clickMailProcessinglink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testSuite" title="com.vcstax.testCases.TC_Smoke_SettingsTab_04" hash-for-method="clickreleaseNoteslink">clickreleaseNoteslink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-testSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-testSuite" class="hide-methods passed suite-testSuite"> (hide)</a> <!-- hide-methods passed suite-testSuite -->
+                      <a href="#" panel-name="suite-testSuite" class="show-methods passed suite-testSuite"> (show)</a> <!-- show-methods passed suite-testSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-testSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testSuite" title="com.vcstax.testCases.TC_Smoke_ActivityTab_02" hash-for-method="clickApplyLateFeelink">clickApplyLateFeelink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testSuite" title="com.vcstax.testCases.TC_Smoke_ActivityTab_02" hash-for-method="clickAssessorChangeOrderslink">clickAssessorChangeOrderslink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testSuite" title="com.vcstax.testCases.TC_Smoke_ActivityTab_02" hash-for-method="clickCollectionlink">clickCollectionlink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testSuite" title="com.vcstax.testCases.TC_Smoke_ActivityTab_02" hash-for-method="clickRegisterReconciliationlink">clickRegisterReconciliationlink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testSuite" title="com.vcstax.testCases.TC_Smoke_SettingsTab_04" hash-for-method="clickannualConfigurationlink">clickannualConfigurationlink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testSuite" title="com.vcstax.testCases.TC_Smoke_ActivityTab_02" hash-for-method="clickbankruptcyCaseslink">clickbankruptcyCaseslink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testSuite" title="com.vcstax.testCases.TC_Smoke_ActivityTab_02" hash-for-method="clickcalculateRevenueDisbursementlink">clickcalculateRevenueDisbursementlink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testSuite" title="com.vcstax.testCases.TC_Smoke_ActivityTab_02" hash-for-method="clickdelinquentProcessinglink">clickdelinquentProcessinglink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testSuite" title="com.vcstax.testCases.TC_Smoke_ActivityTab_02" hash-for-method="clickmobileHomeDigestlink">clickmobileHomeDigestlink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testSuite" title="com.vcstax.testCases.TC_Smoke_ActivityTab_02" hash-for-method="clickmortgageManualProcessinglink">clickmortgageManualProcessinglink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testSuite" title="com.vcstax.testCases.TC_Smoke_ActivityTab_02" hash-for-method="clickmortgagePaymentProcessinglink">clickmortgagePaymentProcessinglink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testSuite" title="com.vcstax.testCases.TC_Smoke_ActivityTab_02" hash-for-method="clickmortgageRequestProcessinglink">clickmortgageRequestProcessinglink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testSuite" title="com.vcstax.testCases.TC_Smoke_ActivityTab_02" hash-for-method="clickmortgageTaxBillExportlink">clickmortgageTaxBillExportlink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testSuite" title="com.vcstax.testCases.TC_Smoke_SettingsTab_04" hash-for-method="clickproductInformationlink">clickproductInformationlink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testSuite" title="com.vcstax.testCases.TC_Smoke_ActivityTab_02" hash-for-method="clickquarterlyBillinglink">clickquarterlyBillinglink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testSuite" title="com.vcstax.testCases.TC_Smoke_ActivityTab_02" hash-for-method="clickrealDigestlink">clickrealDigestlink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testSuite" title="com.vcstax.testCases.TC_Smoke_SettingsTab_04" hash-for-method="clickrolesManagerlink">clickrolesManagerlink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testSuite" title="com.vcstax.testCases.TC_Smoke_SettingsTab_04" hash-for-method="clicksystemConfigurationlink">clicksystemConfigurationlink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testSuite" title="com.vcstax.testCases.TC_Smoke_SettingsTab_04" hash-for-method="clicktextEditorlink">clicktextEditorlink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testSuite" title="com.vcstax.testCases.TC_Smoke_SettingsTab_04" hash-for-method="clickuserAccountsManagerlink">clickuserAccountsManagerlink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-testSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-testSuite" class="panel testSuite">
+          <div class="suite-testSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.vcstax.testCases.TC_Smoke_ActivityTab_02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickMailProcessinglink">
+                  </a> <!-- clickMailProcessinglink -->
+                  <span class="method-name">clickMailProcessinglink</span>
+                  <div class="stack-trace">java.lang.AssertionError: Mail Processing - menu name is not matched. expected [Mail Process] but found [Mail Processing]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at com.vcstax.pageObjects.ActivityTab.clickMailProcessinglink(ActivityTab.java:116)
+	at com.vcstax.testCases.TC_Smoke_ActivityTab_02.clickMailProcessinglink(TC_Smoke_ActivityTab_02.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testSuite-class-failed -->
+          <div class="suite-testSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.vcstax.testCases.TC_Smoke_SettingsTab_04</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickreleaseNoteslink">
+                  </a> <!-- clickreleaseNoteslink -->
+                  <span class="method-name">clickreleaseNoteslink</span>
+                  <div class="stack-trace">java.lang.AssertionError: Release Notes - menu name is not matched. expected [Release Notes] but found []
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at com.vcstax.pageObjects.SettingsTab.clickreleaseNoteslink(SettingsTab.java:121)
+	at com.vcstax.testCases.TC_Smoke_SettingsTab_04.clickreleaseNoteslink(TC_Smoke_SettingsTab_04.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testSuite-class-failed -->
+          <div class="suite-testSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.vcstax.testCases.TC_Smoke_ActivityTab_02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickApplyLateFeelink">
+                  </a> <!-- clickApplyLateFeelink -->
+                  <span class="method-name">clickApplyLateFeelink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickAssessorChangeOrderslink">
+                  </a> <!-- clickAssessorChangeOrderslink -->
+                  <span class="method-name">clickAssessorChangeOrderslink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickCollectionlink">
+                  </a> <!-- clickCollectionlink -->
+                  <span class="method-name">clickCollectionlink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickRegisterReconciliationlink">
+                  </a> <!-- clickRegisterReconciliationlink -->
+                  <span class="method-name">clickRegisterReconciliationlink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickbankruptcyCaseslink">
+                  </a> <!-- clickbankruptcyCaseslink -->
+                  <span class="method-name">clickbankruptcyCaseslink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickcalculateRevenueDisbursementlink">
+                  </a> <!-- clickcalculateRevenueDisbursementlink -->
+                  <span class="method-name">clickcalculateRevenueDisbursementlink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickdelinquentProcessinglink">
+                  </a> <!-- clickdelinquentProcessinglink -->
+                  <span class="method-name">clickdelinquentProcessinglink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickmobileHomeDigestlink">
+                  </a> <!-- clickmobileHomeDigestlink -->
+                  <span class="method-name">clickmobileHomeDigestlink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickmortgageManualProcessinglink">
+                  </a> <!-- clickmortgageManualProcessinglink -->
+                  <span class="method-name">clickmortgageManualProcessinglink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickmortgagePaymentProcessinglink">
+                  </a> <!-- clickmortgagePaymentProcessinglink -->
+                  <span class="method-name">clickmortgagePaymentProcessinglink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickmortgageRequestProcessinglink">
+                  </a> <!-- clickmortgageRequestProcessinglink -->
+                  <span class="method-name">clickmortgageRequestProcessinglink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickmortgageTaxBillExportlink">
+                  </a> <!-- clickmortgageTaxBillExportlink -->
+                  <span class="method-name">clickmortgageTaxBillExportlink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickquarterlyBillinglink">
+                  </a> <!-- clickquarterlyBillinglink -->
+                  <span class="method-name">clickquarterlyBillinglink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickrealDigestlink">
+                  </a> <!-- clickrealDigestlink -->
+                  <span class="method-name">clickrealDigestlink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testSuite-class-passed -->
+          <div class="suite-testSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.vcstax.testCases.TC_Smoke_SettingsTab_04</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickannualConfigurationlink">
+                  </a> <!-- clickannualConfigurationlink -->
+                  <span class="method-name">clickannualConfigurationlink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickproductInformationlink">
+                  </a> <!-- clickproductInformationlink -->
+                  <span class="method-name">clickproductInformationlink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickrolesManagerlink">
+                  </a> <!-- clickrolesManagerlink -->
+                  <span class="method-name">clickrolesManagerlink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clicksystemConfigurationlink">
+                  </a> <!-- clicksystemConfigurationlink -->
+                  <span class="method-name">clicksystemConfigurationlink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clicktextEditorlink">
+                  </a> <!-- clicktextEditorlink -->
+                  <span class="method-name">clicktextEditorlink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickuserAccountsManagerlink">
+                  </a> <!-- clickuserAccountsManagerlink -->
+                  <span class="method-name">clickuserAccountsManagerlink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testSuite-class-passed -->
+        </div> <!-- panel testSuite -->
+        <div panel-name="test-xml-testSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\UX014563\TR Workspace\VCSTAX_REWRITE\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;10&quot; name=&quot;testSuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.vcstax.utilities.VcsTaxReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; verbose=&quot;10&quot; name=&quot;SmokeTestCase2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.vcstax.testCases.TC_Smoke_ActivityTab_02&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SmokeTestCase2 --&gt;
+  &lt;test thread-count=&quot;2&quot; verbose=&quot;10&quot; name=&quot;SmokeTestCase4&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.vcstax.testCases.TC_Smoke_SettingsTab_04&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SmokeTestCase4 --&gt;
+&lt;/suite&gt; &lt;!-- testSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-testSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for testSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SmokeTestCase2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SmokeTestCase4 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-testSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for testSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-testSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for testSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_testSuite');
+function tableData_testSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'clickCollectionlink')
+data.setCell(0, 2, 'com.vcstax.testCases.TC_Smoke_ActivityTab_02')
+data.setCell(0, 3, 3789);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'clickmortgagePaymentProcessinglink')
+data.setCell(1, 2, 'com.vcstax.testCases.TC_Smoke_ActivityTab_02')
+data.setCell(1, 3, 2782);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'clickannualConfigurationlink')
+data.setCell(2, 2, 'com.vcstax.testCases.TC_Smoke_SettingsTab_04')
+data.setCell(2, 3, 2599);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'clickmortgageTaxBillExportlink')
+data.setCell(3, 2, 'com.vcstax.testCases.TC_Smoke_ActivityTab_02')
+data.setCell(3, 3, 1753);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'clickuserAccountsManagerlink')
+data.setCell(4, 2, 'com.vcstax.testCases.TC_Smoke_SettingsTab_04')
+data.setCell(4, 3, 1721);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'clickmortgageManualProcessinglink')
+data.setCell(5, 2, 'com.vcstax.testCases.TC_Smoke_ActivityTab_02')
+data.setCell(5, 3, 1408);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'clickmortgageRequestProcessinglink')
+data.setCell(6, 2, 'com.vcstax.testCases.TC_Smoke_ActivityTab_02')
+data.setCell(6, 3, 1377);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'clickrolesManagerlink')
+data.setCell(7, 2, 'com.vcstax.testCases.TC_Smoke_SettingsTab_04')
+data.setCell(7, 3, 1281);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'clickAssessorChangeOrderslink')
+data.setCell(8, 2, 'com.vcstax.testCases.TC_Smoke_ActivityTab_02')
+data.setCell(8, 3, 1280);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'clickMailProcessinglink')
+data.setCell(9, 2, 'com.vcstax.testCases.TC_Smoke_ActivityTab_02')
+data.setCell(9, 3, 1274);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'clickrealDigestlink')
+data.setCell(10, 2, 'com.vcstax.testCases.TC_Smoke_ActivityTab_02')
+data.setCell(10, 3, 1272);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'clickRegisterReconciliationlink')
+data.setCell(11, 2, 'com.vcstax.testCases.TC_Smoke_ActivityTab_02')
+data.setCell(11, 3, 1267);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'clickmobileHomeDigestlink')
+data.setCell(12, 2, 'com.vcstax.testCases.TC_Smoke_ActivityTab_02')
+data.setCell(12, 3, 1266);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'clickcalculateRevenueDisbursementlink')
+data.setCell(13, 2, 'com.vcstax.testCases.TC_Smoke_ActivityTab_02')
+data.setCell(13, 3, 1264);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'clickbankruptcyCaseslink')
+data.setCell(14, 2, 'com.vcstax.testCases.TC_Smoke_ActivityTab_02')
+data.setCell(14, 3, 1258);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'clickquarterlyBillinglink')
+data.setCell(15, 2, 'com.vcstax.testCases.TC_Smoke_ActivityTab_02')
+data.setCell(15, 3, 1252);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'clickApplyLateFeelink')
+data.setCell(16, 2, 'com.vcstax.testCases.TC_Smoke_ActivityTab_02')
+data.setCell(16, 3, 1242);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'clickproductInformationlink')
+data.setCell(17, 2, 'com.vcstax.testCases.TC_Smoke_SettingsTab_04')
+data.setCell(17, 3, 1241);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'clickdelinquentProcessinglink')
+data.setCell(18, 2, 'com.vcstax.testCases.TC_Smoke_ActivityTab_02')
+data.setCell(18, 3, 1232);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'clicksystemConfigurationlink')
+data.setCell(19, 2, 'com.vcstax.testCases.TC_Smoke_SettingsTab_04')
+data.setCell(19, 3, 1232);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'clicktextEditorlink')
+data.setCell(20, 2, 'com.vcstax.testCases.TC_Smoke_SettingsTab_04')
+data.setCell(20, 3, 1232);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'clickreleaseNoteslink')
+data.setCell(21, 2, 'com.vcstax.testCases.TC_Smoke_SettingsTab_04')
+data.setCell(21, 3, 1227);
+window.suiteTableData['testSuite']= { tableData: data, tableDiv: 'times-div-testSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <div id="times-div-testSuite">
+              </div> <!-- times-div-testSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-testSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for testSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-testSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-testSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.vcstax.testCases.TC_Smoke_ActivityTab_02</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">invokeBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">defineTestObjects</span>
+                <span class="method-start">5446 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">clickCollectionlink</span>
+                <span class="method-start">9882 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickAssessorChangeOrderslink</span>
+                <span class="method-start">13702 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickcalculateRevenueDisbursementlink</span>
+                <span class="method-start">14985 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">clickMailProcessinglink</span>
+                <span class="method-start">16257 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickRegisterReconciliationlink</span>
+                <span class="method-start">17925 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickApplyLateFeelink</span>
+                <span class="method-start">19200 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickbankruptcyCaseslink</span>
+                <span class="method-start">20450 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickdelinquentProcessinglink</span>
+                <span class="method-start">21708 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickquarterlyBillinglink</span>
+                <span class="method-start">22940 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickmobileHomeDigestlink</span>
+                <span class="method-start">24195 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickmortgageTaxBillExportlink</span>
+                <span class="method-start">25464 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickmortgageRequestProcessinglink</span>
+                <span class="method-start">27219 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickrealDigestlink</span>
+                <span class="method-start">28600 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickmortgagePaymentProcessinglink</span>
+                <span class="method-start">29872 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickmortgageManualProcessinglink</span>
+                <span class="method-start">32654 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">34064 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.vcstax.testCases.TC_Smoke_SettingsTab_04</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">invokeBrowser</span>
+                <span class="method-start">37901 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">defineTestObjects</span>
+                <span class="method-start">40081 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">clickannualConfigurationlink</span>
+                <span class="method-start">43633 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clicksystemConfigurationlink</span>
+                <span class="method-start">46240 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clicktextEditorlink</span>
+                <span class="method-start">47480 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickrolesManagerlink</span>
+                <span class="method-start">48714 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickuserAccountsManagerlink</span>
+                <span class="method-start">49997 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickproductInformationlink</span>
+                <span class="method-start">51719 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">clickreleaseNoteslink</span>
+                <span class="method-start">52962 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">54575 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

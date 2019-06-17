@@ -1,0 +1,35 @@
+15:40:04.415 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+15:43:56.311 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed
+15:46:46.964 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+15:47:26.384 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on OK to Continue Link
+15:47:26.534 [main] DEBUG com.vcstax.pageObjects.LoginPage - User Name Entered
+15:47:26.674 [main] DEBUG com.vcstax.pageObjects.LoginPage - Password Entered
+15:47:26.876 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+15:47:39.080 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed
+15:48:20.446 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+15:48:56.098 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on OK to Continue Link
+15:48:56.247 [main] DEBUG com.vcstax.pageObjects.LoginPage - User Name Entered
+15:48:56.381 [main] DEBUG com.vcstax.pageObjects.LoginPage - Password Entered
+15:48:56.517 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+15:49:08.719 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed
+17:20:46.985 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+17:20:52.828 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on OK to Continue Link
+17:20:52.976 [main] DEBUG com.vcstax.pageObjects.LoginPage - User Name Entered
+17:20:53.118 [main] DEBUG com.vcstax.pageObjects.LoginPage - Password Entered
+17:20:53.257 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+17:21:07.228 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed
+17:41:04.132 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+17:41:15.151 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on OK to Continue Link
+17:41:15.284 [main] DEBUG com.vcstax.pageObjects.LoginPage - User Name Entered
+17:41:15.416 [main] DEBUG com.vcstax.pageObjects.LoginPage - Password Entered
+17:41:15.545 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+17:41:28.323 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed
+17:44:17.918 [main] INFO  com.vcstax.testCases.BaseClass - Chrome Driver Opened
+17:44:22.403 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on OK to Continue Link
+17:44:22.541 [main] DEBUG com.vcstax.pageObjects.LoginPage - User Name Entered
+17:44:22.683 [main] DEBUG com.vcstax.pageObjects.LoginPage - Password Entered
+17:44:22.799 [main] DEBUG com.vcstax.pageObjects.LoginPage - Clicked on Submit Button
+17:44:23.476 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Settings Tab
+17:44:24.123 [main] DEBUG com.vcstax.pageObjects.SettingsTab - Clicked on Annual Configuration Link
+17:44:24.806 [main] DEBUG com.vcstax.pageObjects.AnnualConfiguration - Clikced on Annual Default Link
+17:44:32.486 [main] INFO  com.vcstax.testCases.BaseClass - Driver getting closed
